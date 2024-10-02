@@ -58,6 +58,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # Your frontend URL
+    'https://battery-rul.netlify.app'
+
 ]
 
 ROOT_URLCONF = 'model.urls'
