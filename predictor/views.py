@@ -8,8 +8,8 @@ import joblib
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'models')
 
 MODELS = {
-    'Neural Network': joblib.load(os.path.join(MODEL_PATH, 'ANN.pkl')),
-    'Convolutional Neural Network': joblib.load(os.path.join(MODEL_PATH, 'CNN_LSTM.pkl')),
+    # 'Neural Network': joblib.load(os.path.join(MODEL_PATH, 'ANN.pkl')),
+    # 'Convolutional Neural Network': joblib.load(os.path.join(MODEL_PATH, 'CNN_LSTM.pkl')),
     'Decision Tree': joblib.load(os.path.join(MODEL_PATH, 'DECISION_TREE.pkl')),
     'Gradient Boosting': joblib.load(os.path.join(MODEL_PATH, 'GRADIENT_BOOST.pkl')),
     'Linear Regression': joblib.load(os.path.join(MODEL_PATH, 'LINEAR_REGRESSION.pkl')),
