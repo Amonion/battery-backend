@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-32%^97fco4_jidcfqslwa3-fihc!jxanfm7c#wzejvz0x&-ir9
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'battery-api.up.railway.app',
     'battery-backend.onrender.com',
     'localhost',
     '127.0.0.1',  
