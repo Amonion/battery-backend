@@ -10,10 +10,14 @@ MODEL_PATH = os.path.join(os.path.dirname(__file__), 'models')
 MODELS = {
     # 'Neural Network': joblib.load(os.path.join(MODEL_PATH, 'ANN.pkl')),
     # 'Convolutional Neural Network': joblib.load(os.path.join(MODEL_PATH, 'CNN_LSTM.pkl')),
-    'Decision Tree': joblib.load(os.path.join(MODEL_PATH, 'DECISION_TREE.pkl')),
-    'Gradient Boosting': joblib.load(os.path.join(MODEL_PATH, 'GRADIENT_BOOST.pkl')),
+    'Artificial Neural Network': joblib.load(os.path.join(MODEL_PATH, 'DECISION_TREE.pkl')),
+    'Long Short Term Memory': joblib.load(os.path.join(MODEL_PATH, 'GRADIENT_BOOST.pkl')),
     'Linear Regression': joblib.load(os.path.join(MODEL_PATH, 'LINEAR_REGRESSION.pkl')),
-    'Random Forest': joblib.load(os.path.join(MODEL_PATH, 'RANDOM_FOREST.pkl')),
+    'ETR': joblib.load(os.path.join(MODEL_PATH, 'RANDOM_FOREST.pkl')),
+    # 'Decision Tree': joblib.load(os.path.join(MODEL_PATH, 'DECISION_TREE.pkl')),
+    # 'Gradient Boosting': joblib.load(os.path.join(MODEL_PATH, 'GRADIENT_BOOST.pkl')),
+    # 'Linear Regression': joblib.load(os.path.join(MODEL_PATH, 'LINEAR_REGRESSION.pkl')),
+    # 'Random Forest': joblib.load(os.path.join(MODEL_PATH, 'RANDOM_FOREST.pkl')),
 }
 
 def map_to_battery_health(rul):
